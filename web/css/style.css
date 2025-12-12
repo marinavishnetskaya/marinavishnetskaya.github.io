@@ -1,0 +1,379 @@
+
+/* BASE */
+
+/* ----------------------------------------------------------- */
+
+/* 
+*{
+  margin: 0;
+  padding: 0;
+} */
+
+
+li {
+  color: rgb(0, 0, 0);
+}
+
+.text-1 {
+  color: #404040;
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: 'Rubik-VariableFont';
+  src: url('../fonts/Rubik-VariableFont_wght.ttf');
+}
+
+body {
+  background: linear-gradient(to bottom, #925FC4, #713B9B);
+  background-repeat: no-repeat !important;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #AF7EE7;
+  margin: 0 auto;
+  height: 100px;
+  top: 0px;
+}
+
+footer {
+  background-color: #552F73;
+  margin-top: 20px;
+  padding-top: 25px;
+  height: 400px;
+}
+
+/* ----------------------------------------------------------- */
+
+.debet {
+  padding: 3px 0; 
+  width: 100%; 
+}
+
+.logotype {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form div {
+  display: flex;
+
+}
+
+input[type="text"]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  background: radial-gradient(#ddceec13 200px, #d5c2e8);
+  border-color: #ffffff8b;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+input[type="date"] {
+font-family: 'Rubik-VariableFont';
+font-size: 15px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  background: radial-gradient(#ddceec13 200px, #d5c2e8);
+  border-color: #ffffff8b;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.styled-button {
+  background-color: #713B9B;
+  font-family: 'Rubik-VariableFont';
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  align-self: flex-end; 
+  margin-top: auto;
+}
+
+
+.styled-button:hover {
+  background-color: #B481EE;
+}
+
+.styled-button:active {
+  background-color: #713B9B;
+}
+
+.container {
+  display: flex;
+}
+
+.container-1{
+  display: flex;
+  gap: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: right;
+  margin: 20px;
+}
+
+.cards-1 {
+  display: flex;
+  justify-content: right;
+  margin: 20px;
+  width: 600px;
+  height: 590px;
+  filter: drop-shadow(5px 5px 5px #63377c);
+  border-radius: 20px;
+}
+
+
+.cards-2 {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  padding: 5px;
+}
+
+
+.cards-2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+}
+
+.banner {
+  font-family: 'Rubik-VariableFont';
+  display: flex; /* Включаем flex */
+  justify-content: space-between; /* Разделяем левую и правую части */
+  align-items: flex-start; /* Выравниваем по верху */
+  background-color: #DDCEEC;
+  width: 1064px;
+  height: 675px;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px #63377c;
+  position: relative;
+  padding: 20px; /* Добавляем отступы внутри баннера */
+
+  background-image: url('/web/img/градиентик\ небольшой\ \(2\).png');
+  background-position: -100px -200px;
+  background-repeat: no-repeat;
+}
+
+.banner-content {
+  width: 55%; /* Левая часть с формой */
+}
+
+.cards-container {
+  width: 40%; /* Правая часть с картинками */
+  display: flex;
+  flex-direction: column; /* Картинки в колонку */
+  gap: 20px; /* Расстояние между картинками */
+  align-items: flex-end; /* Выравниваем по правому краю */
+  justify-content: space-between;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  font-family: 'Rubik-VariableFont';
+}
+
+label[for="nationality"] {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.button-right {
+  margin-top: 20px; /* Отступ от картинок */
+  align-self: flex-end; /* Выравнивание по правому краю */
+}
+
+/* BANNERS #1 */
+
+/* ----------------------------------------------------------- */
+
+.banner-1 {
+  background-color: #DDCEEC;
+  font-family: 'Rubik-VariableFont';
+  width: 326px;
+  height: 303px;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #63377c;
+  position: relative;
+
+  transform: scale(1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.banner-1:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 10px #63377c;
+}
+
+.banner-1-1{
+  background-image: url('/web/img/градиентик\ небольшой\ \(1\).png');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.banner-1-2{
+  background-image: url('/web/img/градиентик\ небольшой\ \(1\).png');
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+.banner-1-3{
+  background-image: url('/web/img/градиентик\ небольшой\ \(1\).png');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.icon-1 {
+  width: 50px;
+  height: auto;
+  position: absolute; 
+  bottom: 15px; 
+  right: 15px; 
+}
+
+.banner-1-text{
+  margin: 15px;
+}
+
+/* ----------------------------------------------------------- */
+
+.banner-2 {
+  background-color: #DDCEEC;
+  font-family: 'Rubik-VariableFont';
+  width: 470px;
+  height: 590px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #63377c;
+}
+
+.checkbox-label{
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  cursor: pointer;
+}
+
+::placeholder{
+  font-family: 'Rubik-VariableFont';
+  font-size: 15px;
+}
+
+.banner-3 {
+  background: linear-gradient(to bottom, #DDCEEC, #AF7EE7);
+  font-family: 'Rubik-VariableFont';
+  width: 1120px;
+  height: 250px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #63377c;
+  justify-content: flex-start;
+  align-items: center;
+
+  position: relative;
+}
+
+.banner-3-text{
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.btn {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+}
+
+.icon {
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+
+
+footer ul {
+  font-family: 'Rubik-VariableFont';
+  gap: 15px;
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  margin-left: 40px;
+  margin-right: 200px;
+}
+a {
+  text-decoration: none;
+}
+
+footer a {
+  color: #AF7EE7;
+}
+
+footer p {
+  color: #B9AAC5;
+  font-family: 'Rubik-VariableFont';
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 200px;
+}
+
+header ul {
+  font-family: 'Rubik-VariableFont';
+    gap: 50px;
+    color: #713B9B;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 200px;
+    margin-top: 40px;
+}

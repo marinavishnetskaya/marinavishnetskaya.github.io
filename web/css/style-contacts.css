@@ -1,0 +1,315 @@
+li {
+    color: rgb(0, 0, 0);
+}
+
+.text-1 {
+    color: #404040;
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Rubik-VariableFont';
+    margin: 0;
+    margin-top: 3px;
+}
+
+body {
+    background:
+        url('/web/img/Rain Coins W.png') no-repeat,
+        linear-gradient(#925FC4, #552F73) no-repeat center center fixed;
+    background-size: auto, cover;
+    margin: 0;
+    position: relative;
+}
+
+@font-face {
+  font-family: 'Rubik-VariableFont';
+  src: url('../fonts/Rubik-VariableFont_wght.ttf');
+}
+
+.copyable-text {
+    padding-top: 2px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: all;
+}
+
+
+.copyable-text::after {
+    content: "Нажмите, чтобы скопировать";
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    background: #713B9B;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.copyable-text:hover::after {
+    opacity: 1;
+}
+
+.copyable-text-p {
+    padding-top: 2px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    user-select: all;
+}
+
+
+.copyable-text-p::after {
+    content: "Нажмите, чтобы скопировать";
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: #713B9B;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+}
+
+.copyable-text-p:hover::after {
+    opacity: 1;
+}
+
+
+main {
+    height: 1200px;
+    background-size: 1100px;
+    margin: 0 auto;
+    min-height: 171vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #AF7EE7;
+    font-family: 'Rubik-VariableFont';
+    margin: 0;
+    height: 100px;
+    padding: 0;
+}
+
+.block-first {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.block-center {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    gap: 50px;
+    color: #713B9B;
+    font-family: 'Rubik-VariableFont';
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+nav ul {
+    display: flex;
+    font-family: 'Rubik-VariableFont';
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title-page {
+    color: #ffffff;
+    font-family: 'Rubik-VariableFont';
+    font-size: 35px;
+    text-align: center;
+}
+
+.title-block {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+.block {
+    background: linear-gradient(to bottom, #827d8668, #7c768248);
+    width: 400px;
+    height: 510px;
+    margin: 0;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #3838384e;
+    padding-left: 15px;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+}
+
+.block-b {
+    background: linear-gradient(to bottom, #827d8668, #7c768248);
+    width: 400px;
+    height: 625px;
+    margin: 0;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #3838384e;
+    padding-left: 15px;
+    backdrop-filter: blur(10px);
+}
+
+
+.block-p {
+    background: #B481EE;
+    width: 430px;
+    height: 68px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #805c94c9;
+    padding-left: 15px;
+}
+
+.banner-p-text {
+    font-family: 'Rubik-VariableFont';
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+
+.block-1 {
+    background: #B481EE;
+    width: 370px;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #805c94c9;
+    padding-left: 15px;
+}
+
+.block-1-1 {
+    background: #B481EE;
+    width: 370px;
+    height: 110px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #805c94c9;
+    padding-left: 15px;
+}
+
+.questions {
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.number {
+    color: #713B9B;
+    font-size: 18px;
+}
+
+.for-free {
+    color: #ffffff98;
+}
+
+
+
+
+
+.container {
+    display: flex;
+}
+
+.logotype {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 80px;
+}
+
+
+.banner {
+    background: url('/web/img/Group\ 1970.svg'), linear-gradient(to bottom, #DDCEEC, #AF7EE7);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 930px;
+    height: 240px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #63377c;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.banner-3-text {
+    margin: 0px;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+    margin-left: 41px;
+    margin-top: 10px;
+
+}
+
+.polosa {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+footer ul {
+    gap: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    margin-left: 40px;
+    margin-right: 200px;
+}
+
+footer a {
+    color: #AF7EE7;
+}
+
+footer p {
+    color: #B9AAC5;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 200px;
+}
+
+footer {
+    background-color: #552F73;
+    margin-top: auto;
+    height: 400px;
+    padding-top: 25px;
+
+}
+
+main {
+    height: 1350px;
+}

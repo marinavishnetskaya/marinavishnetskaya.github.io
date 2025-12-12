@@ -1,0 +1,249 @@
+/* ----------------------------BASE------------------------------- */
+
+li {
+  color: rgb(0, 0, 0);
+}
+
+.text-1 {
+  color: #404040;
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: 'Rubik-VariableFont';
+  src: url('../fonts/Rubik-VariableFont_wght.ttf');
+}
+
+body {
+  background: url('/web/img/монетки.svg'), linear-gradient(#925FC4, #552F73);
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #AF7EE7;
+  font-family: 'Rubik-VariableFont';
+  margin: 0 auto;
+  height: 100px;
+  position: sticky;
+}
+
+footer {
+  background-color: #552F73;
+  font-family: 'Rubik-VariableFont';
+  margin-top: auto;
+  height: 400px;
+  padding-top: 25px;
+
+}
+
+/* ----------------------------------------------------------- */
+
+
+
+/* ----------------------------HEADER------------------------------- */
+
+header ul {
+  gap: 50px;
+  color: #713B9B;
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 200px;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+}
+
+.logotype {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ----------------------------------------------------------- */
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1920px;
+  gap: 40px;
+  margin: 10px 200px;
+}
+
+.phone{
+  width: 350px;
+  height: 733px;
+margin-top: 50px;
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.block-1{
+  background: linear-gradient(to bottom, #DDCEEC, #AF7EE7);
+  font-family: 'Rubik-VariableFont';
+  width: 400px;
+  height: 110px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #63377c;
+  padding-left: 15px;
+}
+
+.block-2{
+  background: linear-gradient(to right, #DDCEEC, #AF7EE7);
+  font-family: 'Rubik-VariableFont';
+  width: 400px;
+  height: 180px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #63377c;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.block-2-2{
+  background: linear-gradient(to right, #DDCEEC, #AF7EE7);
+  font-family: 'Rubik-VariableFont';
+  width: 400px;
+  height: 220px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #63377c;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.block-3{
+  background: linear-gradient(to top, #DDCEEC, #AF7EE7);
+  font-family: 'Rubik-VariableFont';
+  width: 400px;
+  height: 150px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #63377c;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.banner-3 {
+  background: linear-gradient(to bottom, #DDCEEC, #AF7EE7);
+  font-family: 'Rubik-VariableFont';
+  width: 810px;
+  height: 250px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #63377c;
+  justify-content: flex-start;
+  align-items: center;
+
+  position: relative;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+}
+
+.icon {
+  display: flex;
+  justify-content: start;
+  align-items: flex-end;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+.banner-3-text{
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+.btn {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+}
+
+.styled-button {
+  background-color: #713B9B;
+  font-family: 'Rubik-VariableFont';
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.styled-button:hover {
+  background-color: #B481EE;
+}
+
+.styled-button:active {
+  background-color: #713B9B;
+}
+
+/* -----------------------------FOOTER------------------------------ */
+
+.polosa{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+footer ul {
+  gap: 15px;
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  margin-left: 40px;
+  margin-right: 200px;
+}
+
+footer a {
+  color: #AF7EE7;
+}
+
+footer p {
+  color: #B9AAC5;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 200px;
+}

@@ -1,0 +1,220 @@
+li {
+    color: rgb(0, 0, 0);
+}
+
+.text-1 {
+    color: #404040;
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Rubik-VariableFont';
+    margin: 0;
+    margin-top: 3px;
+}
+
+@font-face {
+  font-family: 'Rubik-VariableFont';
+  src: url('../fonts/Rubik-VariableFont_wght.ttf');
+}
+
+body {
+    background:
+        url('/web/img/Rain Coins W.png') no-repeat,
+        linear-gradient(#925FC4, #552F73) no-repeat center center fixed;
+    background-size: auto, cover;
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    font-family: 'Rubik-VariableFont';
+    background-color: #AF7EE7;
+    margin: 0 auto;
+    height: 100px;
+    top: 0px;
+}
+
+.logotype {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    font-family: 'Rubik-VariableFont';
+    background: linear-gradient(to bottom, #af7ee771, #9589a248);
+    width: 450px;
+    height: 640px;
+    margin: 0;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #3838384e;
+    backdrop-filter: blur(10px);
+}
+
+.container {
+    display: flex;
+}
+
+header ul {
+    gap: 50px;
+    color: #713B9B;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #341a4a;
+    font-family: 'Rubik-VariableFont';
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    font-family: 'Rubik-VariableFont';
+    padding: 12px 70px 12px 30px;
+    margin: 5px 0px;
+    display: inline-block;
+    background: radial-gradient(#ddceec13 200px, #d5c2e8);
+    border-color: #ffffff8b;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+input[type="password"] {
+    font-family: 'Rubik-VariableFont';
+    padding: 12px 70px 12px 30px;
+    margin: 5px 0px;
+    display: inline-block;
+    background: radial-gradient(#ddceec13 200px, #d5c2e8);
+    border-color: #ffffff8b;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+::placeholder{
+  font-family: 'Rubik-VariableFont';
+  font-size: 15px;
+}
+
+.agreement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.agreement-text {
+    width: 90%;
+}
+
+.styled-button {
+    background-color: #713B9B;
+    font-family: 'Rubik-VariableFont';
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-self: center;
+    margin-top: auto;
+}
+
+.styled-button:hover {
+    background-color: #B481EE;
+}
+
+.styled-button:active {
+    background-color: #713B9B;
+}
+
+.title-page {
+    color: #ffffff;
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 25px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+label {
+    font-size: 15px;
+    color: #cfbce6;
+}
+
+.text-reg {
+    font-size: 15px;
+    color: #cfbce6;
+}
+
+/* -----------------------------FOOTER------------------------------ */
+
+.polosa{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+footer ul {
+  gap: 15px;
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  margin-left: 40px;
+  margin-right: 200px;
+}
+
+footer a {
+  color: #AF7EE7;
+}
+
+footer p {
+  color: #B9AAC5;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 200px;
+}
+
+footer {
+  background-color: #552F73;
+  font-family: 'Rubik-VariableFont';
+  margin-top: auto;
+  height: 400px;
+  padding-top: 25px;
+margin-top: 50px;
+}

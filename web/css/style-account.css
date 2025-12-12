@@ -1,0 +1,374 @@
+/* ----------------------------BASE------------------------------- */
+
+li {
+    color: rgb(0, 0, 0);
+}
+
+.text-1 {
+    color: #404040;
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: 'Rubik-VariableFont';
+    src: url('../fonts/Rubik-VariableFont_wght.ttf');
+}
+
+body {
+    background: url('/web/img/Rain\ Coins\ W.png'),
+        linear-gradient(#925FC4, #552F73);
+    font-family: 'Rubik-VariableFont';
+    margin: 0 auto;
+    min-height: 130vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #AF7EE7;
+    font-family: 'Rubik-VariableFont';
+    margin: 0 auto;
+    height: 100px;
+    position: sticky;
+}
+
+footer {
+    background-color: #552F73;
+    font-family: 'Rubik-VariableFont';
+    margin-top: auto;
+    height: 400px;
+    padding-top: 25px;
+    margin-top: 130px;
+}
+
+/* ----------------------------------------------------------- */
+
+/* ----------------------------HEADER------------------------------- */
+
+header ul {
+    gap: 50px;
+    color: #713B9B;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.logotype {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------- */
+
+.hello-main {
+    color: white;
+    font-size: 40px;
+    margin-left: 75px;
+}
+
+
+.hello {
+    color: white;
+    font-size: 30px;
+    margin-left: 75px;
+}
+
+.text-on {
+    font-family: 'Rubik-VariableFont';
+    margin-top: 50%;
+    margin-left: 20px;
+}
+
+.text-on-1 {
+    font-family: 'Rubik-VariableFont';
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.text-number {
+    font-family: 'Rubik-VariableFont';
+    margin-left: 20px;
+    text-align: start;
+    margin-top: 20%;
+}
+
+.for-cards {
+    font-family: 'Rubik-VariableFont';
+    margin-left: 15px;
+    text-align: start;
+    margin-top: 60%;
+    color: white;
+}
+
+.banner {
+    background: linear-gradient(to left, #AF7EE7, #713B9B);
+    font-family: 'Rubik-VariableFont';
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.banner-right {
+    flex-grow: 1;
+    padding-right: 75px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.right-card h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.amount {
+    font-weight: bold;
+}
+
+.amount.positive {
+    color: #ffffff;
+}
+
+.amount.negative {
+    color: #552F73;
+}
+
+.payment {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.date {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.block {
+    background: url('/web/img/Group\ 1971\ \(2\).svg'),
+        linear-gradient(to bottom, #EAEAEA, #AF7EE7);
+    background-position: 10% 5%;
+    background-repeat: no-repeat;
+    font-family: 'Rubik-VariableFont';
+    width: 230px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #63377c;
+}
+
+.block-1 {
+    background: url('/web/img/Group\ 1973.svg'),
+        #252626;
+    background-position: 15% 15%;
+    background-repeat: no-repeat;
+    font-family: 'Rubik-VariableFont';
+    width: 130px;
+    height: 120px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #63377c;
+
+    transform: scale(1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.block-1:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px #63377c;
+}
+
+
+.block-1-1 {
+    background: url('/web/img/Group\ 1974.svg'),
+        #252626;
+    background-position: 15% 15%;
+    background-repeat: no-repeat;
+    font-family: 'Rubik-VariableFont';
+    width: 130px;
+    height: 120px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #63377c;
+
+    transform: scale(1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.block-1-1:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px #63377c;
+}
+
+.block-1-2 {
+    background: url('/web/img/Group\ 1975.svg'),
+        #252626;
+    background-position: 15% 15%;
+    background-repeat: no-repeat;
+    font-family: 'Rubik-VariableFont';
+    width: 130px;
+    height: 120px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #63377c;
+
+    transform: scale(1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.block-1-2:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px #63377c;
+}
+
+.block-1-3 {
+    background: url('/web/img/Group\ 1974.svg'),
+        #252626;
+    background-position: 15% 15%;
+    background-repeat: no-repeat;
+    font-family: 'Rubik-VariableFont';
+    width: 130px;
+    height: 120px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #63377c;
+
+    transform: scale(1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.block-1-3:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px #63377c;
+}
+
+.rovno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.container-import {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.banner-mini {
+    background: linear-gradient(to bottom, #827d8668, #7c768248);
+    width: 400px;
+    height: 510px;
+    margin: 0;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #3838384e;
+    padding-left: 15px;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+}
+
+.zayavka {
+    background: linear-gradient(to bottom, #EAEAEA, #AF7EE7);
+    box-shadow: 5px 5px 5px #67427d;
+    font-family: 'Rubik-VariableFont';
+    width: 350px;
+    height: 540px;
+    margin-top: 35px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.imba {
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.imba-1 {
+    margin-left: 15px;
+}
+
+.imba-1-color {
+    color: #552F73;
+}
+
+/* -----------------------------FOOTER------------------------------ */
+
+.polosa {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+footer ul {
+    gap: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    margin-left: 40px;
+    margin-right: 200px;
+}
+
+footer a {
+    color: #AF7EE7;
+}
+
+footer p {
+    color: #B9AAC5;
+    margin: 20px;
+    margin-left: 80px;
+    margin-right: 200px;
+}

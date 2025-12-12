@@ -1,0 +1,159 @@
+/* ----------------------------BASE------------------------------- */
+
+li {
+    color: rgb(0, 0, 0);
+}
+
+.text-1 {
+    color: #404040;
+    font-size: 12px;
+}
+
+@font-face {
+    font-family: 'Rubik-VariableFont';
+    src: url('../fonts/Rubik-VariableFont_wght.ttf');
+}
+
+body {
+    background: linear-gradient(#925FC4, #552F73);
+    margin: 0 auto;
+    min-height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #AF7EE7;
+    font-family: 'Rubik-VariableFont';
+    margin: 0 auto;
+    height: 100px;
+    position: sticky;
+}
+
+footer {
+    background-color: #552F73;
+    font-family: 'Rubik-VariableFont';
+    margin-top: auto;
+    height: 400px;
+    padding-top: 25px;
+
+}
+
+/* ----------------------------------------------------------- */
+
+
+
+/* ----------------------------HEADER------------------------------- */
+
+header ul {
+    gap: 50px;
+    color: #713B9B;
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+}
+
+.logotype {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------- */
+
+.banner {
+    background: url('/web/img/Group\ 1971.svg'), linear-gradient(to bottom, #DDCEEC, #AF7EE7);
+    font-family: 'Rubik-VariableFont';
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 930px;
+    height: 350px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #63377c;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+}
+
+.banner-p-text{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.banner-p-text-1{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.styled-button {
+  background-color: #713B9B;
+  font-family: 'Rubik-VariableFont';
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+
+.styled-button:hover {
+  background-color: #B481EE;
+}
+
+.styled-button:active {
+  background-color: #713B9B;
+}
+
+/* -----------------------------FOOTER------------------------------ */
+
+.polosa{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+footer ul {
+  gap: 15px;
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  margin-left: 40px;
+  margin-right: 200px;
+}
+
+footer a {
+  color: #AF7EE7;
+}
+
+footer p {
+  color: #B9AAC5;
+  margin: 20px;
+  margin-left: 80px;
+  margin-right: 200px;
+}
+
+/* ----------------------------------------------------------- */
